@@ -11,6 +11,7 @@ public class User extends Atm{
         int x = 1;
         do{
             try {
+//                User id and PIN stored in data.
                 data.put(9901, 1234);
                 data.put(9902, 2345);
                 data.put(9903, 3456);
